@@ -1,0 +1,201 @@
+/* add your custom css here */
+/* do NOT edit the styles.css file */
+.navbar-brand {
+    font-family: 'Anybody', cursive;
+    font-weight:300;
+}
+.navbar {
+   background-color: #3C096C;
+}
+.nav-link {
+    font-family: 'Anybody', cursive;
+    font-weight: 200;
+}
+#home {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: 100px 398px;
+    overflow: hidden;
+}
+.fw-bolder {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:600;
+    font-size: 50pt;
+}
+#front .lead {
+    font-family: 'Noto Serif', serif;
+}
+#front .btn {
+    font-family: 'Noto Serif', serif;
+}
+.bg-primary .bg-gradient .text-white #home {
+    background-color: white;
+}
+.back {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: 1;
+    margin-top: 150px;
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 510px;
+}
+#front {
+    height: 510px;
+    grid-column:1/4;
+    grid-row:1/2;
+    z-index:2;
+    margin-top: 150px;
+    color:black;
+}
+#pride-month .col-lg-8 h2 {
+    color: #240046;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50pt;
+}
+#pride-month{
+    padding-top: 5%;
+}
+#pride-month .col-lg-8 {
+    text-align: center;
+    padding-bottom: 15%;
+}
+#pride-month .col-lg-8 p {
+    font-family: 'Noto Serif', serif;
+    font-size: 13pt;
+}
+#pride-month .col-lg-8 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40;
+    color: #240046;
+}
+#history {
+    padding-top: 5%;
+}
+#history .col-lg-8 {
+    text-align: center;
+    padding-bottom: 15%
+}
+#history .col-lg-8 h2 {
+    color: #FF6D00;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50pt;
+}
+#history .col-lg-8 p {
+    font-family: 'Noto Serif', serif;
+    font-size: 13pt;
+}
+#history .col-lg-8 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40;
+    color:#FF6D00;
+}
+#pmo .col-lg-8 h2 {
+    text-align: center;
+    padding-bottom: 15%;
+    color:#240046;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50pt;
+}
+#pmo .col-lg-8 .lead {
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-size: 13pt;
+}
+#events {
+    padding-top: 5%;
+}
+#events .col-lg-8 h2 {
+    text-align: center;
+    padding-bottom: 15%;
+    color:#FF6D00;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50pt;
+}
+#events .col-lg-8 h4 {
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30pt;
+    color:#FF6D00;
+}
+#events .col-lg-8 p {
+    padding-left: 5%;
+    font-family: 'Noto Serif', serif;
+    font-size: 13pt;
+}
+#parade .col-lg-8 h2 {
+    text-align: center;
+    padding-bottom: 15%;
+    color: #240046;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50pt;
+}
+#parade .col-lg-8 p {
+    padding-left: 5%;
+    font-family: 'Noto Serif', serif;
+    font-size: 13pt;
+}
+#gallery {
+    padding: 5%;
+}
+#gallery .col-lg-8 h2 {
+    text-align: center;
+    color:#FF6D00;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50pt;
+}
+.col-lg-8 a {
+    text-decoration: none;
+    color:#FF6D00;
+}
+a:link {
+    text-decoration: none;
+}
+#back2Top {
+    width:50px; /* width of button */
+    height:40px; /* height of button */
+    line-height:30px;
+    overflow:hidden;
+    z-index:999;
+    display:none; /* initially not displayed */
+    cursor:pointer;
+    transform:rotate(270deg); /* turns right arrow 270 degrees */
+    position:fixed; /* fixed at bottom corner */
+    bottom:30px; /* distance from bottom */
+    right:40px; /* distance from right */
+    padding:4px 4px 13px 4px; /* padding around arrow */
+    border:1px solid #555;
+    border-radius:2px;
+    background:rgba(233, 245, 98, 0.7); /* blue background with transparency */
+    color:#000; /* color of arrow */
+    text-align:center;
+    font-size:30px; /* size of the arrow */
+    text-decoration:none;
+    }
+#back2Top:link {
+    background:rgba(233, 245, 98, 0.7);
+    color:#000;
+}
+#back2Top:visited {
+    background:rgba(233, 245, 98, 0.7);
+    color:#000;
+}
+#back2Top:hover {
+    background:rgba(233, 245, 98, 0.8);
+    color:#000;
+}
+#back2Top:active {
+    background:rgba(233, 245, 98, 0.7);
+    color:#000;
+}
